@@ -1,0 +1,110 @@
+nav li #historia{
+  background: #fff;
+  color: pink;
+  border:1px solid rgba(0,0,0,0.5);
+}
+
+/*Portada*/
+body{
+  background: rgba(247, 219, 227, 0.8);
+}
+
+.container-cover{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-top: 80px;
+  background-image: url(../Res/historia-fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-cover:before{
+  content: '';
+  width: 100%;
+  background: #BB2E56BF;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-info-cover{
+  max-width: 800px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 2px;
+  position: relative;
+  z-index: 1;
+}
+.container-info-cover h1{
+  font-size: 60px;
+  font-weight: 500px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.container-info-cover p{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Contenido*/
+
+.container-history{
+  width: 900px;
+  margin: auto;
+  margin-top: 40px;
+
+  justify-content: center;
+}
+article{
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+  box-shadow: -10px 0 20px -30px black;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  background: white;
+}
+article:before{
+  content: '';
+  width: 100%;
+  height: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #BB2E56;
+}
+article h1{
+  margin-top: 20px;
+  font-weight: 500px;
+  font-size: 40px;
+}
+article p{
+  margin-top: 20px;
+  font-size: 18px;
+  color: #3c3c3c;
+}
+article{
+  width: 100%;
+  margin-top: 20px;
+}
+article .concepto{
+  text-align: center;
+}
+article #img1{
+  width: 40%;
+  margin: 20px 20px;
+  float: right;
+}
+article #img2{
+  width: 60%;
+  margin: 20px 20px;
+  float: right;
+}

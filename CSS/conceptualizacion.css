@@ -1,0 +1,146 @@
+nav li #conceptualizacion{
+  background: #fff;
+  color: pink;
+  border:1px solid rgba(0,0,0,0.5);
+}
+/*Portada*/
+body{
+  background: rgba(247, 219, 227, 0.8);
+}
+
+.container-cover{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-top: 80px;
+  background-image: url(../Res/conceputualizacion-fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-cover:before{
+  content: '';
+  width: 100%;
+  background: #FF0049BF;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-info-cover{
+  max-width: 800px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 2px;
+  position: relative;
+  z-index: 1;
+}
+.container-info-cover h1{
+  font-size: 60px;
+  font-weight: 500px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.container-info-cover p{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Estilos body*/
+
+.container-conceptos{
+  width: 900px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.articulos{
+  margin-right: 20px;
+}
+article{
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+  box-shadow: -10px 0 20px -30px black;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  background: white;
+}
+article:before{
+  content: '';
+  width: 100%;
+  height: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #FF0049;
+}
+article h1{
+  margin-top: 20px;
+  font-weight: 500px;
+  font-size: 40px;
+}
+article p{
+  margin-top: 20px;
+  font-size: 18px;
+  color: #3c3c3c;
+}
+article{
+  width: 100%;
+  margin-top: 20px;
+}
+article .concepto{
+  text-align: center;
+}
+article #img1{
+  width: 60%;
+  float: right;
+  margin: 20px 20px;
+}
+article #img2{
+  width: 60%;
+  display: block;
+  margin:auto;
+}
+.content-aside aside{
+  width: 320px;
+  border-radius: 6px;
+  box-shadow: 0 0 20px -20px black;
+  overflow: hidden;
+  margin-left: 40px;
+  margin-top: 20px;
+  background: white;
+}
+.content-aside aside img{
+  width: 100%;
+}
+.content-aside aside h2,
+.content-aside aside p{
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+
+.content-aside aside button{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 10px 50px;
+  font-size: 16px;
+  background: #ED7799;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.content-aside aside button:hover{
+  opacity: 0.9;
+}
